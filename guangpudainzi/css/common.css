@@ -1,0 +1,134 @@
+/* 
+* @Author: Administrator
+* @Date:   2019-03-05 13:22:10
+* @Last Modified by:   Administrator
+* @Last Modified time: 2019-03-11 17:46:24
+*/
+
+@charset "utf-8";
+body,html{
+    margin: 0;
+    padding: 0;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+}
+dd,dt,dl{
+    margin: 0;
+    padding: 0;
+}
+body,ul,ol,h1,h2,h3,h4,h5,h6,p{margin: 0;padding: 0;}
+ul,ol{list-style: none;margin: 0;padding:0 ;}
+img{border: none; vertical-align: top;}
+a{text-decoration: none;}
+strong{font-weight:normal;}/*清除加粗*/	
+em{font-style: normal;}/*清除斜体*/
+input{border:none;outline:none;}/*清除 聚焦*/
+textarea{resize: none;border:none;}/*清除右下角小尾巴*/
+.clearfix:after,.clearfix:before{content: "";display: table;}
+.clearfix:after{clear: both;}
+.clearfix{*zoom:1;}
+.gWidth{
+	width: 75em;
+	margin-left: auto;
+	margin-right: auto;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.sblue{
+	background-color: #002959;
+}
+/* con */
+.con{
+    width: 71.25em;
+    display: flex;
+    justify-content: space-around;
+    height: 6.875em;
+    padding-top: 2.875em;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #414141;
+}
+.con p{
+    text-align: center;
+}
+.con li p:first-child{
+    color: #09274A;
+    font-size: 1.875em;
+
+}
+.con li p:last-child{
+    color:#A3A3A3;
+    font-size: 1em;
+    margin-top: 1em;    
+}
+/* product */
+/* com开始 */
+.com{
+    width: 37.9375em;
+    margin-left: auto;
+    margin-right: auto;
+    height: 8.625em;
+    background: url(../img/tback.png) no-repeat top center;
+    background-size: 30.9375em 3.1875em;
+}
+.com h2{
+    font-weight: 540;
+    text-align: center;
+    font-size: 3em;
+    margin-bottom: 0.31em;
+}
+.com div{
+    position: relative;
+    width: 11.5em;
+    height: 3.375em;
+    margin-left: auto;
+    margin-right: auto;
+    background: url(../img/tri.png) no-repeat center center;
+    background-size: 11.5em 3.375em;;
+}
+.com div:after{
+    content: '';
+    width: 6.9375em;
+    height: 0.0625em;
+    position: absolute;
+    left: -6.9375em;
+    top: 60%;
+    background-color: #032753;
+
+}
+.com div::before{
+    content: '';
+    width: 6.9375em;
+    height: 0.0625em;
+    position: absolute;
+    right: -6.9375em;
+    top: 60%;
+    background-color: #032753;
+
+}
+html body .com_t{
+    background: url(../img/com_t.png) no-repeat top center;
+}
+html body .news_t{
+    background: url(../img/news_t.png) no-repeat top center;
+}
+html body .cot_t{
+    background: url(../img/cot_t.png) no-repeat top center;
+}
+html body .an_t{
+    background: url(../img/an_t.png) no-repeat top center;
+}
+/* com结束 */
+/* <p class="com_p"><a href="#">更多</a></p> */
+
+	
+
+
+		/*重置样式表  清除默认样式*/
+
